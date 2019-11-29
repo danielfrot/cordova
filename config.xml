@@ -2,12 +2,12 @@
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android = "http://schemas.android.com/apk/res/android"
-		id        = "danielfrota.app"
+		id        = "teste.frota.app"
 		versionCode=""
 		version   = "0.0.1">
 		<name>Foragidos RO		</name>
 		<description>Esse é um aplicativo de teste		</description>
-		<author href="http://#" email="drfrota.adv@gmail.com">Daniel Frota		</author>
+		<author href="http://naotemsite.com" email="drfrota.adv@gmail.com">Daniel Frota		</author>
 		<feature name="http://api.phonegap.com/1.0/battery" />
 		<feature name="http://api.phonegap.com/1.0/camera" />
 		<feature name="http://api.phonegap.com/1.0/contacts" />
@@ -20,10 +20,10 @@
 		<preference name="android-build-tool" value="gradle" />
 		<preference name="orientation" value="default" />
 		<preference name="fullscreen" value="false" />
-		<preference name="target-device" value="universal" />
+		<preference name="target-device" value="handset" />
 		<preference name="webviewbounce" value="true" />
-		<preference name="prerendered-icon" value="false" />
-		<preference name="stay-in-webview" value="true" />
+		<preference name="prerendered-icon" value="true" />
+		<preference name="stay-in-webview" value="false" />
 		<preference name="ios-statusbarstyle" value="default" />
 		<preference name="detect-data-types" value="true" />
 		<preference name="exit-on-suspend" value="true" />
@@ -40,8 +40,8 @@
 		<preference name="HideKeyboardFormAccessoryBar" value="true" />
 		<preference name="SuppressesIncrementalRendering" value="false" />
 		<preference name="windows-identity-name" value="" />
-		<preference name="android-minSdkVersion" value="7" />
-		<preference name="android-targetSdkVersion" value="0" />
+		<preference name="android-minSdkVersion" value="23" />
+		<preference name="android-targetSdkVersion" value="23" />
 		<preference name="android-maxSdkVersion" value="0" />
 		<preference name="android-installLocation" value="auto" />
 		<preference name="SplashScreenDelay" value="2000" />

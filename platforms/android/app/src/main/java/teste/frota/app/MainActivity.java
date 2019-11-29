@@ -17,7 +17,7 @@
        under the License.
  */
 
-package org.cordova.quasar.app;
+package teste.frota.app;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
